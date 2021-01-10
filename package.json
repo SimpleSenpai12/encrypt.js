@@ -1,0 +1,30 @@
+{
+  "name": "encrypt.js",
+  "version": "0.0.0",
+  "description": "Uses __Crypt__ to encrypt a given response a given number of times.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encrypt": "node encrypt.js",
+    "decrypt": "node decrypt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleSenpai12/encrypt.js.git"
+  },
+  "keywords": [
+    "encryption"
+  ],
+  "author": "SimpleSenpai12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimpleSenpai12/encrypt.js/issues"
+  },
+  "homepage": "https://github.com/SimpleSenpai12/encrypt.js#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "prompt": "^1.1.0"
+  }
+}
